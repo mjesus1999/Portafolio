@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Manfer Jesus Saravia Mateo | Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="icon" type="image/png" href="assets/img/iconno.png">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">M.Saravia</span>
+                <div class="logo-dot"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre mí</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero" id="inicio">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    Hola, soy <span class="highlight">Manfer Jesus Saravia Mateo</span>
+                </h1>
+                <p class="hero-subtitle">Egresado de Ingeniería de Sistemas con interés en automatización e inteligencia artificial.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Ver Proyectos
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Tecnologías</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Responsive</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="window-title">portfolio.html</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code class="language-html">
+class Developer {
+    public $name = "Manfer Jesus Saravia Mateo";
+    public $skills = [
+        "Python", "JavaScript", 
+        "HTML5", "CSS3", "MySQL"
+    ];
+    
+    public function create() {
+        return "Amazing projects!";
+    }
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Sobre mí</h2>
+                <p class="section-subtitle">Conoce mi historia y pasión por el desarrollo</p>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-text" data-aos="fade-right">
+                    <p>Egresado de Ingeniería de Sistemas con interés en automatización e inteligencia artificial. He desarrollado sistemas ERP, páginas web corporativas y un sistema recomendador de comida. Manejo Python para desarrollo backend, MySQL para bases de datos, y tecnologías web como HTML, CSS y JavaScript para el frontend. También tengo experiencia en soporte técnico, mantenimiento de hardware y software, y conocimientos básicos en redes.</p>
+                    <div class="sobre-features">
+                        <div class="feature">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Diseño Responsivo</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-rocket"></i>
+                            <span>Rendimiento Optimizado</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Código Seguro</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image" data-aos="fade-left">
+                    <div class="image-container">
+                        <img src="assets/img/est.png" alt="Manfer Jesus Saravia Mateo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section section-dark">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Mis Proyectos</h2>
+            </div>
+            <div class="proyectos-grid">
+                <div class="proyecto-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="proyecto-image">
+                        <img src="assets/img/erp.webp" alt="Taller Textil - ERP Interno" class="proyecto-img-clickable" data-image="assets/img/erp.webp" data-title="Taller Textil - ERP Interno">
+                    </div>
+                    <div class="proyecto-content">
+                        <h3 class="proyecto-title">Taller Textil - ERP Interno</h3>
+                        <p class="proyecto-descripcion">Sistema ERP desarrollado para la gestión interna del taller textil, incluyendo control de inventario, producción y administración.</p>
+                        <div class="proyecto-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="proyecto-image">
+                        <img src="assets/img/Textil-pagina.webp" alt="Taller Textil - Página Web" class="proyecto-img-clickable" data-image="assets/img/Textil-pagina.webp" data-title="Taller Textil - Página Web">
+                    </div>
+                    <div class="proyecto-content">
+                        <h3 class="proyecto-title">Taller Textil - Página Web</h3>
+                        <p class="proyecto-descripcion">Sitio web corporativo del taller textil con diseño moderno y responsive, mostrando servicios y productos.</p>
+                        <div class="proyecto-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="proyecto-image">
+                        <img src="assets/img/candidato.webp" alt="Página del Candidato" class="proyecto-img-clickable" data-image="assets/img/candidato.webp" data-title="Página del Candidato">
+                    </div>
+                    <div class="proyecto-content">
+                        <h3 class="proyecto-title">Página del Candidato</h3>
+                        <p class="proyecto-descripcion">Página web personal para candidato político con información, propuestas y contacto.</p>
+                        <div class="proyecto-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="proyecto-image multi-image">
+                        <img src="assets/img/3.webp" alt="Recomendador de Comida - Imagen 1" class="proyecto-img-clickable" data-images='["assets/img/3.webp","assets/img/4.webp"]' data-title="Recomendador de Comida" data-current-index="0">
+                        <img src="assets/img/4.webp" alt="Recomendador de Comida - Imagen 2" class="proyecto-img-clickable" data-images='["assets/img/3.webp","assets/img/4.webp"]' data-title="Recomendador de Comida" data-current-index="1">
+                    </div>
+                    <div class="proyecto-content">
+                        <h3 class="proyecto-title">Recomendador de Comida</h3>
+                        <p class="proyecto-descripcion">Sistema recomendador de comida accesible mediante código QR que proporciona recomendaciones personalizadas basadas en gustos y preferencias de cada usuario.</p>
+                        <div class="proyecto-tech">
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Habilidades & Tecnologías</h2>
+                <p class="section-subtitle">Tecnologías que domino y herramientas que utilizo</p>
+            </div>
+            <div class="habilidades-content">
+                <div class="habilidad-categoria" data-aos="fade-up">
+                    <h3 class="categoria-title">Habilidades y Software</h3>
+                    <div class="tech-grid">
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <span class="tech-name">Excel intermedio</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="tech-name">MySQL básico – intermedio</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <span class="tech-name">Uso de IA generativa aplicada a automatización</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="tech-name">Programación web básica</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <span class="tech-name">Análisis de datos básico</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <span class="tech-name">Redes y cableado estructurado</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <span class="tech-name">Instalación básica de cámaras IP</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span class="tech-name">UI/UX básico</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <span class="tech-name">Mantenimiento de hardware y software</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <span class="tech-name">Soporte Técnico</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <span class="tech-name">Inglés A2</span>
+                        </div>
+                        <div class="tech-card" data-aos="zoom-in">
+                            <div class="tech-icon">
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                            <span class="tech-name">Photoshop y Adobe Premiere intermedio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section section-accent">
+        <div class="container">
+            <div class="cv-content" data-aos="fade-up">
+                <div class="cv-text">
+                    <h2>¿Te interesa mi perfil?</h2>
+                    <p>Descarga mi CV para conocer más sobre mi experiencia y formación profesional.</p>
+                    <a href="assets/cv/Manfer_Saravia_CV-pdf.pdf" class="btn btn-primary" target="_blank" download>
+                        <i class="fas fa-download"></i>
+                        Descargar CV
+                    </a>
+                </div>
+                <div class="cv-visual">
+                    <div class="cv-preview">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>CV - Manfer Jesus Saravia Mateo.pdf</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span>Manfer Jesus Saravia Mateo</span>
+                    </div>
+                    <p>Egresado de Ingeniería de Sistemas con interés en automatización e inteligencia artificial.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre">Sobre mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Redes Sociales</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/mjesus1999" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jsaraviamateo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/jsaraviamateo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Manfer Jesus Saravia Mateo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para imágenes ampliadas -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <button class="modal-nav modal-prev" id="modalPrev">&#10094;</button>
+        <img class="modal-content" id="modalImage">
+        <button class="modal-nav modal-next" id="modalNext">&#10095;</button>
+        <div class="modal-caption" id="modalCaption"></div>
+        <div class="modal-counter" id="modalCounter"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

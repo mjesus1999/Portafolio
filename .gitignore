@@ -1,0 +1,19 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Ignorar index.php para GitHub Pages (usar index.html)
+index.php
+Dockerfile
+
