@@ -13,33 +13,7 @@ Portafolio web profesional desarrollado con HTML, CSS y JavaScript.
 
 ## 🚀 Despliegue en GitHub Pages
 
-### Pasos para subir tu portafolio:
-
-1. **Crea un repositorio en GitHub:**
-   - Ve a [github.com](https://github.com)
-   - Crea un nuevo repositorio (puedes llamarlo `portfolio` o `portafolio`)
-
-2. **Sube los archivos:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-   git push -u origin main
-   ```
-
-3. **Activa GitHub Pages:**
-   - Ve a tu repositorio en GitHub
-   - Click en **Settings**
-   - Ve a la sección **Pages** en el menú lateral
-   - En **Source**, selecciona la rama `main` y la carpeta `/ (root)`
-   - Click en **Save**
-
-4. **Tu portafolio estará disponible en:**
-   ```
-   https://TU_USUARIO.github.io/TU_REPOSITORIO/
-   ```
+Este repositorio está configurado para desplegarse automáticamente en GitHub Pages desde la rama `main`, utilizando la raíz (`/`) como origen.
 
 ## 📁 Estructura del Proyecto
 
